@@ -7,7 +7,7 @@ let categories: Array<Category> = []
 categories.push(
     new Category('Insurance', new Array<Expense>(
         new Expense('Healthcare', 100)
-    )),,
+    )),
 
     new Category('Subscriptions', new Array<Expense>(
         new Expense("Spotify", 10),
